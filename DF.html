@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dinner Invitation ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card" id="welcome">
+<h1>💌</h1>
+<h2>Someone has a little question for you…</h2>
+<button onclick="next('form')">Continue</button>
+</div>
+
+<div class="card hidden" id="form">
+<h2>Instagram username</h2>
+<input id="user" placeholder="@username">
+<button onclick="invite()">Next</button>
+</div>
+
+<div class="card hidden" id="invite">
+<h2 id="hello"></h2>
+<p>I'd love to invite you to dinner.</p>
+<h3>Will you have dinner with me? ❤️</h3>
+<button id="yes">Yes 🩷</button>
+<button id="no">No 🤍</button>
+</div>
+
+<div class="card hidden" id="done">
+<h1>🎉</h1>
+<h2>Yay!</h2>
+<p>I'm looking forward to our dinner. 🍽️❤️</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
